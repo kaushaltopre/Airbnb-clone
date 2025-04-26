@@ -1,0 +1,187 @@
+*{
+
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.navbar{
+
+    height: 5rem;
+    width:100%;
+    /* background-color: bisque; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.navbar .first i{
+    color: red;
+    font-size: 35px;
+    font-weight: 400;
+    margin-left: -250px;
+}
+
+.navbar .first span{
+    color: red;
+    font-size: 20px;
+    font-weight: 600px;
+    position: relative;
+    top: -5px;
+}
+.navbar .second span:first-child{
+    margin-right: 20px;
+    margin-left: 30px;
+
+}
+.navbar .second span:hover{
+    padding: 10px;
+    border-radius: 30px;
+    background-color: aliceblue;
+    cursor: pointer;
+}
+.navbar .first:hover{
+    color: black;
+}
+.navbar .third{
+    margin-right: -250px;
+}
+
+.navbar .third div{
+    padding: 8px 15px 8px 15px;
+    color: gray;
+    background-color: whitesmoke;
+    border: 2px solid black;
+    border-radius: 20px;
+    position: relative;
+    left: 20px;
+
+}
+
+.navbar .third div:hover{
+    box-shadow: 1px 2px 2px 1px grey;
+}
+.search-box{
+    height: 5rem;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.search-box .parent{
+    height: 4rem ;
+    width: 70%;
+    background-color: white;
+    border-radius: 50px;
+    box-shadow: 1px 2px 5px gray;
+    display: flex;
+    
+}
+.search-box .parent article:hover{
+    background-color: gainsboro;
+    border-radius: 40px;
+
+}
+.search-box .parent article:first-child{
+    height: inherit;
+    width: 33%;
+    /* background-color: red; */
+    
+}
+.search-box .parent article:nth-child(2){
+    height: inherit;
+    width: 16.5%;
+    /* background-color: rgb(50, 121, 165); */
+   
+}
+.search-box .parent article:nth-child(3){
+    height: inherit;
+    width: 16.5%;
+    /* background-color: red; */
+    
+}
+.search-box .parent article:nth-child(4){
+    height: inherit;
+    width: 34%;
+    /* background-color: rgb(94, 141, 73); */
+    
+}
+.search-box .parent article:last-child{
+    position: relative;
+    height: inherit;
+    /* background-color: cadetblue; */
+    display: flex;
+    
+
+}
+.search-box .parent article i{
+    position: absolute;
+    right: 5px;
+    top: 7px;
+    font-size: 20px;
+    padding: 15px;
+    color: white;
+    background-color: rgb(222, 65, 48);
+    border-radius: 50%;
+    
+}
+.search-box .parent article i:hover{
+    background-color: rgb(185, 65, 65);
+}
+.search-box .parent article b{
+    position: relative;
+    top: 9px;
+    margin-left: 25px;
+    margin-right: 20px;
+    font-weight: 700;
+    font-size: 15px;
+}
+.search-box .parent article p{
+    
+    margin-top: 50px;
+    margin-left: 25px;
+    margin-right: 20px;
+    font-size: 15px;
+    margin-top:10px ;
+}
+.card-parent{
+    width: 100%;
+    margin-top: 20px;
+    padding-right: 70px;
+    padding-left: 90px;
+    /* background-color: antiquewhite; */
+}
+.card-parent .cards .card{
+    height: 450px;
+    /* border: 2px solid black; */
+    width: 315px;
+    padding: 5px;
+
+    position: relative;
+    
+
+}
+
+.card-parent .cards{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: -10px;
+}
+
+.cards .card #btn{
+    /* background-color: aliceblue; */
+    padding: 1px 10px 1px 10px;
+    width: 170px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 1px 2px 4px 1px rgb(177, 176, 176);
+    position: absolute;
+    top: 15px;
+    left:10px;
+
+}
