@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Lists with Background Image</title>
+    <style>
+        
+        body {
+            background-image: url('https://img.freepik.com/premium-vector/fast-food-seamless-pattern-vector-illustration-traditional-american-food-background-print-food_514903-1874.jpg?w=2000');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            font-family: Arial, sans-serif;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+       
+        .list-container {
+            background: rgba(0, 0, 0, 0.7); 
+            padding: 20px;
+            margin: 20px auto;
+            border-radius: 10px;
+            width: 80%;
+        }
+
+        h2 {
+            color: #FFD700; 
+        }
+
+        ol, ul, dl {
+            text-align: left;
+            display: inline-block;
+            margin: 10px auto;
+            padding-left: 20px;
+        }
+
+        dt {
+            font-weight: bold;
+            color: #FF5733;
+        }
+
+        dd {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="list-container">
+        
+        <h2>Ordered List - Top 5 Fruits</h2>
+        <ol>
+            <li>Apple</li>
+            <li>Banana</li>
+            <li>Mango</li>
+            <li>Orange</li>
+            <li>Grapes</li>
+        </ol>
+    </div>
+
+    <div class="list-container">
+       
+        <h2>Unordered List - Types of Fast Food</h2>
+        <ul>
+            <li>Burgers</li>
+            <li>Pizza</li>
+            <li>Fries</li>
+            <li>Hot Dogs</li>
+            <li>Tacos</li>
+        </ul>
+    </div>
+
+    <div class="list-container">
+        
+        <h2>Description List - Food & Their Origins</h2>
+        <dl>
+            <dt>Pizza</dt>
+            <dd>Originated in Italy</dd>
+
+            <dt>Sushi</dt>
+            <dd>Traditional Japanese dish</dd>
+
+            <dt>Tacos</dt>
+            <dd>Popular in Mexico</dd>
+
+            <dt>Chow Mein</dt>
+            <dd>Famous Chinese noodle dish</dd>
+
+            <dt>Paella</dt>
+            <dd>Classic Spanish rice dish</dd>
+        </dl>
+    </div>
+
+    <div class="list-container">
+       
+        <h2>Nested List - Breakfast Options</h2>
+        <ul>
+            <li>Continental Breakfast
+                <ul>
+                    <li>Croissants</li>
+                    <li>Bread & Butter</li>
+                    <li>Coffee</li>
+                </ul>
+            </li>
+            <li>American Breakfast
+                <ul>
+                    <li>Pancakes</li>
+                    <li>Eggs & Bacon</li>
+                    <li>Orange Juice</li>
+                </ul>
+            </li>
+            <li>Indian Breakfast
+                <ul>
+                    <li>Poha</li>
+                    <li>Idli & Dosa</li>
+                    <li>Chai</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    <div class="list-container">
+        
+        <h2>Ordered List with Custom Type - Steps to Make Tea</h2>
+        <ol type="A">
+            <li>Boil water</li>
+            <li>Add tea leaves</li>
+            <li>Let it steep</li>
+            <li>Add milk and sugar</li>
+            <li>Strain and serve</li>
+        </ol>
+    </div>
+
+</body>
+</html>

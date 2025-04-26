@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Headings Examples</title>
+</head>
+<body>
+
+    <!-- Example 1: Indian Cuisine -->
+    <h1 style="background-color: #FF5733; color: white; padding: 10px;">Indian Cuisine</h1>
+    <h2 style="background-color: #FFC300; color: black; padding: 8px;">Spices and Flavors</h2>
+    <h3 style="background-color: #DAF7A6; color: black; padding: 6px;">Curry Dishes</h3>
+    <h4 style="background-color: #C70039; color: white; padding: 4px;">Street Food</h4>
+    <h5 style="background-color: #581845; color: white; padding: 2px;">Popular Desserts</h5>
+
+    <!-- Example 2: Fast Food -->
+    <h1 style="background-color: #1F618D; color: white; padding: 10px;">Fast Food Favorites</h1>
+    <h2 style="background-color: #28B463; color: white; padding: 8px;">Burgers</h2>
+    <h3 style="background-color: #F1C40F; color: black; padding: 6px;">French Fries</h3>
+    <h4 style="background-color: #8E44AD; color: white; padding: 4px;">Pizza</h4>
+    <h5 style="background-color: #E74C3C; color: white; padding: 2px;">Milkshakes</h5>
+
+    <!-- Example 3: Desserts -->
+    <h1 style="background-color: #D35400; color: white; padding: 10px;">Sweet Treats</h1>
+    <h2 style="background-color: #F39C12; color: black; padding: 8px;">Cakes & Pastries</h2>
+    <h3 style="background-color: #A569BD; color: white; padding: 6px;">Ice Cream</h3>
+    <h4 style="background-color: #7DCEA0; color: black; padding: 4px;">Chocolate Delights</h4>
+    <h5 style="background-color: #5DADE2; color: black; padding: 2px;">Fruit-Based Desserts</h5>
+
+    <!-- Example 4: Beverages -->
+    <h1 style="background-color: #34495E; color: white; padding: 10px;">Refreshing Beverages</h1>
+    <h2 style="background-color: #16A085; color: white; padding: 8px;">Coffee & Tea</h2>
+    <h3 style="background-color: #E67E22; color: black; padding: 6px;">Smoothies</h3>
+    <h4 style="background-color: #ECF0F1; color: black; padding: 4px;">Juices</h4>
+    <h5 style="background-color: #8E44AD; color: white; padding: 2px;">Mocktails</h5>
+
+    <!-- Example 5: Vegan Food -->
+    <h1 style="background-color: #27AE60; color: white; padding: 10px;">Plant-Based Delights</h1>
+    <h2 style="background-color: #2980B9; color: white; padding: 8px;">Vegan Proteins</h2>
+    <h3 style="background-color: #D4AC0D; color: black; padding: 6px;">Tofu & Tempeh</h3>
+    <h4 style="background-color: #8E44AD; color: white; padding: 4px;">Dairy Alternatives</h4>
+    <h5 style="background-color: #E74C3C; color: white; padding: 2px;">Plant-Based Desserts</h5>
+
+    <!-- Example 6: Home Cooking -->
+    <h1 style="background-color: #7B241C; color: white; padding: 10px;">Home Cooking</h1>
+    <h2 style="background-color: #1ABC9C; color: black; padding: 8px;">Essential Ingredients</h2>
+    <h3 style="background-color: #C0392B; color: white; padding: 6px;">Cooking Techniques</h3>
+    <h4 style="background-color: #F4D03F; color: black; padding: 4px;">Healthy Meal Prep</h4>
+    <h5 style="background-color: #9B59B6; color: white; padding: 2px;">Cooking Hacks</h5>
+
+    <!-- Example 7: Breakfast Foods -->
+    <h1 style="background-color: #E67E22; color: white; padding: 10px;">Breakfast Delights</h1>
+    <h2 style="background-color: #3498DB; color: white; padding: 8px;">Egg Dishes</h2>
+    <h3 style="background-color: #27AE60; color: black; padding: 6px;">Pancakes & Waffles</h3>
+    <h4 style="background-color: #8E44AD; color: white; padding: 4px;">Cereals & Oats</h4>
+    <h5 style="background-color: #E74C3C; color: white; padding: 2px;">Healthy Start</h5>
+
+    <!-- Example 8: Street Food -->
+    <h1 style="background-color: #D35400; color: white; padding: 10px;">Street Food Around the World</h1>
+    <h2 style="background-color: #9B59B6; color: white; padding: 8px;">Asian Street Food</h2>
+    <h3 style="background-color: #2ECC71; color: black; padding: 6px;">Mexican Tacos</h3>
+    <h4 style="background-color: #E74C3C; color: white; padding: 4px;">European Snacks</h4>
+    <h5 style="background-color: #5DADE2; color: black; padding: 2px;">Middle Eastern Shawarma</h5>
+
+</body>
+</html>

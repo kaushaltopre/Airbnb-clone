@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="shortcut icon" href="https://www.foodrepublic.com/img/gallery/15-different-types-of-pizza-in-the-us/new-york-pizza-1710439998.webp" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap" rel="stylesheet">
+    <title>Html Cards</title>
+
+
+    
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .vt323-regular {
+        font-family: "VT323", monospace;
+        font-weight: 400;
+        font-style: normal;
+      }
+      
+    
+
+    .main-canvas{
+        height: auto;
+        background: #232526;  
+        background: -webkit-linear-gradient(to right, #414345, #232526); 
+        background: linear-gradient(to right, #414345, #232526); 
+        display: flex;
+        flex-direction: column;
+        gap:50px;
+        padding-bottom: 60px;
+    }
+    #main-title{
+        padding: 20px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    .cards{
+        display: flex;
+        gap: 50px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    h2{
+        font-size: 32px;
+
+    }
+    .card{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 250px;
+        height: 250px;
+        padding: 20px;
+        border-radius: 20px;
+        border: solid 10px rgb(209, 115, 8);
+        gap: 20px;
+    }
+
+    .card img{
+        display: block ;
+        margin-left: auto;
+        margin-right: auto;
+        width: 150px;
+    }
+
+    .card h3{
+        border-radius: 10px;
+        color: #232526;
+        padding: 5px 20px;
+        font-family: "VT323", monospace;
+        font-weight: 400;
+        font-style: normal;
+
+    }
+    
+    .cards{
+        background-color: #fbdd74;
+        border: 5px solid #de5c3a ;
+        h3{
+            background-color: #de5c3a;
+            color: white;
+            text-decoration: none !important;
+        }
+        #card-img{
+            border: 5px solid #de5c3a;
+        }
+    }
+    
+   
+
+
+    .card:hover{
+        transform: scale(1.1);
+        transition:ease-in-out linear 0.5;
+    }
+
+    #main-title:hover{
+        transform: scale(1.1);
+        transition: all ease-in-out;
+    }
+</style>
+<center>
+<body>
+    <h1>Types Of Pizza</h1>
+    <div class="main-canvas vt323-regular">
+        <img id="main-title" src="images/new" alt="">
+        <div class="cards">
+
+            <div class="card">
+                <span id="card-img"><img src="https://www.foodrepublic.com/img/gallery/15-different-types-of-pizza-in-the-us/new-york-pizza-1710439998.webp"  height="px" width="200px" alt=""></span>
+
+                <h2>Chicago</h2>
+                <h3>Fire</h3>
+            </div>
+            <div class="card">
+                <span id="card-img"><img src="https://www.foodrepublic.com/img/gallery/15-different-types-of-pizza-in-the-us/chicago-deep-dish-pizza-1710439998.webp"   height="px" width="200px" alt=""></span>
+                <h2>Texas</h2>
+                <h3>Fire</h3>
+            </div>
+            <div class="card">
+                <span id="card-img"><img src="https://www.foodrepublic.com/img/gallery/15-different-types-of-pizza-in-the-us/neapolitan-pizza-1710439998.webp" alt=""></span>
+
+                <h2>Neapolitian</h2>
+                <h3>Fire</h3>
+            </div>
+
+        </div>
+        <div class=" cards">
+            <div class="card"><span id="card-img"><img src="https://www.foodrepublic.com/img/gallery/15-different-types-of-pizza-in-the-us/detroit-pan-pizza-1710439998.webp" height="px" width="200px"   alt=""></span>
+
+                <h2>Detroit</h2>
+                <h3>High Heat</h3>
+            </div>
+            <div class="card"><span id="card-img"><img src="https://www.foodrepublic.com/img/gallery/15-different-types-of-pizza-in-the-us/st-louis-pizza-1710439998.webp"height="px" width="200px"  alt=""></span>
+
+                <h2>St Louis</h2>
+                <h3>High Heat</h3>
+            </div>
+            <div class="card"><span id="card-img"><img src="https://www.foodrepublic.com/img/gallery/15-different-types-of-pizza-in-the-us/quad-city-pizza-1710439998.webp" height="px" width="200px"  alt=""></span>
+                <h2>Quad City</h2>
+                <h3>High Heat</h3>
+            </div>
+        </div>
+        <div class="cards">
+            <div class="card">
+                <span id="card-img"><img src="https://www.foodrepublic.com/img/gallery/15-different-types-of-pizza-in-the-us/california-pizza-1710439998.webp" height="px" width="200px"  alt=""></span>
+                <h2>California</h2>
+                <h3>Medium Heat</h3>
+            </div>
+            <div class="card">
+                <span id="card-img"><img src="https://www.foodrepublic.com/img/gallery/15-different-types-of-pizza-in-the-us/philly-tomato-pie-1710439998.webp" height="px" width="200px"  alt=""></span>
+                <h2>Philly</h2>
+                <h3>Medium Heat</h3>
+            </div>
+            <div class="card">
+                <span id="card-img"><img src="https://www.foodrepublic.com/img/gallery/15-different-types-of-pizza-in-the-us/buffalo-pizza-1710439998.webp" height="px" width="200px"  alt=""></span>
+                <h2>New Jersy</h2>
+                <h3>Medium Heat</h3>
+            </div>
+        </div>
+        <div class="cards">
+            <div class="card">
+                <span id="card-img"><img src="https://www.foodrepublic.com/img/gallery/15-different-types-of-pizza-in-the-us/colorado-mountain-pie-1710439998.webp" height="px" width="200px"  alt=""></span>
+                <h2>Mountain</h2>
+                <h3>Low Heat</h3>
+            </div>
+            <div class="card">
+                <span id="card-img"><img src="https://www.foodrepublic.com/img/gallery/15-different-types-of-pizza-in-the-us/new-haven-apizza-1710439998.webp" height="px" width="200px"  alt=""></span>
+                <h2>New Haven</h2>
+                <h3>Low Heat</h3>
+            </div>
+            <div class="card">
+                <span id="card-img"><img src="https://www.foodrepublic.com/img/gallery/15-different-types-of-pizza-in-the-us/sicilian-pizza-1710439998.webp" height="px" width="200px"  alt=""></span>
+                <h2>Sicilian</h2>
+                <h3>Low Heat</h3>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</center>
+</html>
